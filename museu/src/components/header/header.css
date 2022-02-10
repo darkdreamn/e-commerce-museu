@@ -1,0 +1,24 @@
+@import url("../../colors.css");
+
+.container {
+    padding: 6px 20px;
+}
+
+div {
+    color: var(--color-light);
+}
+
+.header {
+    height: 70px;
+    background-color: var(--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.logo {
+    width: 100%;
+    max-width: 70px;
+}
