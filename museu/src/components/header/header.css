@@ -15,7 +15,25 @@ div {
     align-items: center;
     justify-content: space-between;
     font-family: Helvetica, sans-serif;
-	box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-group span {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 22px;
+    color: var(--color-yellow);
+}
+
+.logo-group span:last-child {
+    color: var(--color-orange);
+    font-weight: 600;
 }
 
 .logo {
