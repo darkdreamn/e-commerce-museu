@@ -1,0 +1,31 @@
+@import url("../../colors.css");
+
+.article-bg-color {
+    background-color: var(--color-light);
+}
+
+.article-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.article-container h2 {
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: var(--color-dark);
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.article-container p {
+    font-family: Helvetica, sans-serif;
+    color: var(--color-dark);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+    letter-spacing: 0.6px;
+}

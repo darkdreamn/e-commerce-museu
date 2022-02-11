@@ -3,6 +3,8 @@ import './reset.css'
 import Header from './components/header/Header'
 import Gallery from './components/gallery/Gallery'
 import Title from './components/title/title'
+import Description from './components/description/Description'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Gallery />
       <Title />
+      <Description />
+      <Footer />
     </div>
   )
 }

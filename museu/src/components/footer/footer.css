@@ -1,0 +1,6 @@
+@import url("../../colors.css");
+
+footer {
+    height: 200px;
+    background-color: var(--color-dark);
+}
