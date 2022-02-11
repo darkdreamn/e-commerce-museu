@@ -2,12 +2,12 @@
 
 .ticket-container {
     border: 3px solid var(--color-blue);
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
     padding: 16px;
     position: absolute;
-    right: 300px;
-    top: 880px;
+    left: 60%;
+    top: 70px;
     background-color: var(--color-light);
     font-size: 16px;
     font-family: Helvetica, sans-serif;
@@ -33,7 +33,7 @@
     text-align: left;
 }
 
-#btn-ticket-reserve {
+#btn-ticket {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
@@ -46,6 +46,7 @@
     transition: 0.2s;
 }
 
-#btn-ticket-reserve:hover {
+#btn-ticket:hover {
     background-color: #3a3b80;
 }
+

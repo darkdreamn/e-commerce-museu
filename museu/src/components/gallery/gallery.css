@@ -1,13 +1,16 @@
 @import url("../../colors.css");
 
 .frame {
-    height: 70px;
+    height: 80px;
     width: 1000px;
     margin: 0 auto;
     margin-top: -7px;
     text-align: center;
     background-color: var(--color-light);
     color: var(--color-dark);
+    background-image: url("../../assets/textura.jpg");
+    background-repeat: repeat;
+    background-size: 340px;
 }
 
 .frame-up {
@@ -20,7 +23,7 @@
 }
 
 .frame p {
-    padding-top: 24px;
+    padding-top: 30px;
     font-size: 18px;
     font-weight: 550;
 }

@@ -1,7 +1,7 @@
 @import url("../../colors.css");
 
 .container {
-    padding: 6px 20px;
+    padding: 16px 20px;
 }
 
 div {
@@ -9,7 +9,7 @@ div {
 }
 
 .header {
-    height: 70px;
+    height: 80px;
     background-color: var(--color-dark);
     display: flex;
     align-items: center;

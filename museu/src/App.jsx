@@ -13,7 +13,6 @@ function App() {
       <Header />
       <Gallery />
       <Title />
-      <Ticket />
       <Description />
       <Footer />
     </div>
