@@ -1,0 +1,50 @@
+.paint-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    background-color: var(--color-dark);
+}
+
+.paint {
+    width: 20%;
+    height: 500px;
+    margin: 20px 10px;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1.1;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 700ms ease-in;
+    /* -webkit-transition: 700ms ease-in; */
+}
+
+.active { 
+    flex: 3;
+}
+
+#paint-1 {
+    background-image: url("../../assets/painting-amor-vincet-omnia.jpg");
+}
+
+#paint-2 {
+    background-image: url("../../assets/painting-judith-b-holofernes.jpg");
+}
+
+#paint-3 {
+    background-image: url("../../assets/painting-medusa.jpg");
+}
+
+#paint-4 {
+    background-image: url("../../assets/painting-the-entombment-of-christ.jpg");
+}
+
+#paint-5 {
+    background-image: url("../../assets/paiting-taking-of-christ.jpg");
+}

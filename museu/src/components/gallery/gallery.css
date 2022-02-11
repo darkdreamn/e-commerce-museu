@@ -1,0 +1,26 @@
+@import url("../../colors.css");
+
+.frame {
+    height: 70px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: -7px;
+    text-align: center;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.frame-up {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.frame-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.frame p {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 550;
+}
