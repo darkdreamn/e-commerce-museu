@@ -1,0 +1,51 @@
+@import url("../../colors.css");
+
+.ticket-container {
+    border: 3px solid var(--color-blue);
+    width: 400px;
+    border-radius: 10px;
+    padding: 16px;
+    position: absolute;
+    right: 300px;
+    top: 880px;
+    background-color: var(--color-light);
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.ticket-up {
+    color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket-middle-top {
+    color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket-middle-bottom {
+    margin-bottom: 10px;
+    color: var(--color-dark);    
+    text-align: left;
+}
+
+#btn-ticket-reserve {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btn-ticket-reserve:hover {
+    background-color: #3a3b80;
+}
