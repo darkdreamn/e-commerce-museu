@@ -1,9 +1,8 @@
 import './App.css'
 import './reset.css'
 import Header from './components/header/Header'
-import Gallery from './components/gallery/Gallery'
+import Painting from './components/paintings/Painting'
 import Title from './components/title/title'
-import Ticket from './components/ticket/Ticket'
 import Description from './components/description/Description'
 import Footer from './components/footer/Footer'
 
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Gallery />
+      <Painting />
       <Title />
       <Description />
       <Footer />
