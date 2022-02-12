@@ -33,11 +33,11 @@ function Painting() {
         setPaintActive3(false);
         setPaintActive4(false);
         setPaintActive5(false);
-        setNamePaint('O Sepultamento de Cristo - Deposizione');
-        setDataPaint('1603-4');
-        setTechniquePaint('Óleo sobre tela');
-        setDimensionPaint('300 x 203 cm');
-        setLocalizationPaint('Pinacoteca Vaticana, Roma');
+        setNamePaint('Judite e Holofernes');
+        setDataPaint('1599');
+        setTechniquePaint('Pintura a óleo');
+        setDimensionPaint('144 x 195 cm');
+        setLocalizationPaint('Galeria Nacional de Arte Antiga, Roma');
     }
 
     const paintActive3 = () => {
@@ -59,11 +59,11 @@ function Painting() {
         setPaintActive3(false);
         setPaintActive4(true);
         setPaintActive5(false);
-        setNamePaint('Judite e Holofernes');
-        setDataPaint('1599');
-        setTechniquePaint('Pintura a óleo');
-        setDimensionPaint('144 x 195 cm');
-        setLocalizationPaint('Galeria Nacional de Arte Antiga, Roma');
+        setNamePaint('O Sepultamento de Cristo - Deposizione');
+        setDataPaint('1603-4');
+        setTechniquePaint('Óleo sobre tela');
+        setDimensionPaint('300 x 203 cm');
+        setLocalizationPaint('Pinacoteca Vaticana, Roma');
     }
 
     const paintActive5 = () => {

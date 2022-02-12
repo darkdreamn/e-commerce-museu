@@ -1,5 +1,4 @@
 import './App.css'
-import './reset.css'
 import Header from './components/header/Header'
 import Painting from './components/paintings/Painting'
 import Title from './components/title/title'

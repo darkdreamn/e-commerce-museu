@@ -8,7 +8,7 @@ function TicketSend() {
                 <span>Sua reserva foi confirmada!</span>
             </div>
             <div className='ticket-send-bottom'>
-                <span>Seu ingresso foi enviado para o e-mail informado</span>
+                <span>Seu ingresso foi enviado para o e-mail informado.</span>
                 <span>Será necessário a apresentação do comprovante de vacinação, o ingresso impresso e um documento com foto.</span>
             </div>
             <div>

@@ -1,17 +1,16 @@
 @import url("../../colors.css");
 
 .ticket-container-reserve {
-    border: 3px solid var(--color-blue);
+    border: 3px solid var(--color-soft-dark);
     width: 500px;
     height: 140px;
     border-radius: 10px;
-    padding: 16px;
+    padding: 18px;
     position: absolute;
     left: 60%;
     margin-top: 64px;
     background-color: var(--color-light);
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .ticket-reserve {
@@ -21,21 +20,19 @@
 }
 
 .ticket-reserve-text-title {
-    color: var(--color-blue);
+    color: var(--color-soft-dark);
     font-size: 18px;
     font-weight: 600;
-    font-family: Helvetica, sans-serif;
     margin-bottom: 18px;
 }
 
 .ticket-reserve-text-input {
     color: var(--color-dark);
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 550;
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, sans-serif;
 }
 
 .ticket-reserve-text-input span {
@@ -50,24 +47,25 @@
     width: 240px;
     padding: 4px 6px;
     border-radius: 2px;
-    border: 1px solid var(--color-blue);
+    border: 1px solid var(--color-soft-dark);
 }
 
 #btn-ticket-reserve {
     width: 100%;
     padding: 18px;
     border-radius: 6px;
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-    background-color: var(--color-blue);
+    font-size: 18px;
+    background-color: var(--color-soft-dark);
     color: var(--color-light);
     border: none;
     cursor: pointer;
     transition: 0.2s;
+    letter-spacing: 1px;
 }
 
 #btn-ticket-reserve:hover {
-    background-color: #3a3b80;
+    /* background-color: #3a3b80; */
+    background-color: var(--color-blue);
 }
 
 .animeRight {
