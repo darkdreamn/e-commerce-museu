@@ -1,0 +1,54 @@
+@import url("../../colors.css");
+
+.ticket-container {
+    border: 3px solid var(--color-yellow);
+    width: 500px;
+    border-radius: 10px;
+    padding: 18px;
+    position: absolute;
+    left: 60%;
+    top: 70px;
+    background-color: var(--color-dark);
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    z-index: 2;
+}
+
+.ticket-up {
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket-middle-top {
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket-middle-bottom {
+    margin-bottom: 10px;
+    color: var(--color-light);    
+    text-align: left;
+}
+
+#btn-ticket {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: var(--color-yellow);
+    color: var(--color-dark);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 550;
+}
+
+#btn-ticket:hover {
+    background-color: #3a3b80;
+    background-color: var(--color-orange);
+}
+

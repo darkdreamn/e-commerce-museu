@@ -1,15 +1,15 @@
 import './App.css'
-import Header from './components/header/Header'
-import Painting from './components/paintings/Painting'
-import Title from './components/title/title'
-import Description from './components/description/Description'
-import Footer from './components/footer/Footer'
+import { Header } from './components/Header'
+import { Paintings } from './components/Paintings'
+import { Title } from './components/Title'
+import { Description } from './components/Description'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Painting />
+      <Paintings />
       <Title />
       <Description />
       <Footer />

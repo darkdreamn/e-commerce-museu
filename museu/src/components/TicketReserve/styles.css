@@ -1,0 +1,103 @@
+@import url("../../colors.css");
+
+.ticket-container-reserve {
+    border: 3px solid var(--color-soft-dark);
+    width: 500px;
+    height: 274px;
+    border-radius: 10px;
+    padding: 18px;
+    position: absolute;
+    left: 60%;
+    margin-top: 64px;
+    background-color: var(--color-light);
+    font-size: 18px;
+    z-index: 2;
+}
+
+.mdbg {
+    background-color: var(--color-soft-dark);
+    opacity: 0.7;
+    width: 100vw;
+    height: 2300px;
+    top: -940px;
+    z-index: 1;
+    position: absolute;
+}
+
+.ticket-reserve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket-reserve-text-title {
+    color: var(--color-soft-dark);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.ticket-reserve-text-input {
+    color: var(--color-dark);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.ticket-reserve-text-input p {
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ticket-reserve-text-input p:first-child {
+    margin-top: 0;
+}
+
+.ticket-reserve-text-input div:last-child {
+    margin-bottom: 0;
+}
+
+.ticket-reserve-text-input input {
+    width: 480px;
+    padding: 7px 6px;
+    border-radius: 2px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--color-soft-dark);
+}
+
+#btn-ticket-reserve {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: var(--color-soft-dark);
+    color: var(--color-light);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    letter-spacing: 0.6px;
+}
+
+#btn-ticket-reserve:hover {
+    background-color: var(--color-blue);
+}
+
+.animeRight {
+    opacity: 0;
+    transform: translateX(200px);
+    animation: animeRight 0.3s forwards;
+}
+
+@keyframes animeRight {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}

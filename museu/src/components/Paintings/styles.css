@@ -1,0 +1,113 @@
+@import url("../../colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+.paint-container {
+    width: 1100px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark);
+}
+
+.paint {
+    width: 20%;
+    height: 500px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+.paint:hover {
+    border: 1px groove var(--color-light);   
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1.1;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 700ms ease-in;
+}
+
+.active {
+    flex: 3;
+}
+
+#paint-1 {
+    background-image: url("../../assets/painting-amor-vincet-omnia.jpg");
+}
+
+#paint-2 {
+    background-image: url("../../assets/painting-judith-b-holofernes.jpg");
+}
+
+#paint-3 {
+    background-image: url("../../assets/painting-medusa.jpg");
+}
+
+#paint-4 {
+    background-image: url("../../assets/painting-the-entombment-of-christ.jpg");
+}
+
+#paint-5 {
+    background-image: url("../../assets/paiting-taking-of-christ.jpg");
+}
+
+.frame {
+    height: 130px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: -7px;
+    text-align: center;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    background-image: url("../../assets/textura.jpg");
+    background-repeat: repeat;
+    background-size: 340px;
+}
+
+.frame-up {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.frame-bottom {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.frame h3 {
+    font-family: 'Quintessential', cursive;
+    color: var(--color-soft-dark);
+    padding-top: 52px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.frame-bottom h4 {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.frame-bottom .paint-description {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+}
+
+.paint-description .paint-description-text div {
+    text-align: left;
+    color: var(--color-dark);
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.paint-description .paint-description-text div span:first-child {
+    font-weight: 550;
+}
